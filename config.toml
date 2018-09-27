@@ -1,3 +1,21 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://www.example.com/"
+title = "静·心"
+author = "@weisd"
+canonifyurls = true
+languagecode = "zh-CN"
+theme = "black-and-light"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "静·心"
+  disableWebFonts = false
+
+[[menu.main]]
+    name = "文章"
+    url  = "https://github.com/weisd/blog"
+[[menu.main]]
+    name = "简历"
+    url  = "https://github.com/weisd/blog"
+
